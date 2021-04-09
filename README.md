@@ -37,11 +37,11 @@ Relevant functionalities of MethPrimer are designing primers for bisulfite-seque
 ## Quick Start
 ### Dependencies
 Ensure you have the following libraries installed:<br/>
-`pip install biopython`<br/>
+`$ pip install biopython`<br/>
 https://biopython.org/wiki/Download<br/>
-`pip install pandas`<br/>
+`$ pip install pandas`<br/>
 https://pypi.org/project/pandas/<br/>
-`pip install plotly-express`<br/>
+`$ pip install plotly-express`<br/>
 https://pypi.org/project/plotly-express/<br/>
 
 
@@ -58,9 +58,9 @@ Assuming you've already conducted bisulfite PCR and have the sequences of your c
 ### Running the program from terminal
 1. Prepare your sequences and modify variables in the `bisulfite_analysis.py` file as shown above
 2. Navigate to the the folder you placed `bisulfite_analysis.py`, `control_samples` and `perturbed_samples` with<br/>
-`cd path/to/folder`
+`$ cd path/to/bisulfite_analysis/`
 3. Run the program with<br/>
-`python bisulfite_analysis.py`
+`$ python bisulfite_analysis.py`
 4. For a graph of the statistics, uncomment the last block of code in the `PRINT_OUTPUT()` function in the `bisulfite_analysis.py` file
 
 ## Example Output
