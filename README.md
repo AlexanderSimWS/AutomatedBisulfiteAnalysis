@@ -35,6 +35,16 @@ Relevant functionalities of MethPrimer are designing primers for bisulfite-seque
 
 
 ## Quick Start
+### Dependencies
+Ensure you have the following libraries installed:
+`pip install biopython`
+https://biopython.org/wiki/Download
+`pip install pandas`
+https://pypi.org/project/pandas/
+`pip install plotly-express`
+https://pypi.org/project/plotly-express/
+
+
 ### Preparing the files and understanding your data
 Assuming you've already conducted bisulfite PCR and have the sequences of your control and perturbation samples perform the following steps:
 1. Identify the sequence you're analysing with MethPrimer and index (0 indexed) all the CpG islands between your forward and reverse primers (Indicated by GC in the original stand on top)
