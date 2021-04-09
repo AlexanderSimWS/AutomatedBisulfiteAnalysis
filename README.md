@@ -28,7 +28,7 @@ One way to
 
 
 ## Output
-Control Group Methylation:
+Control Group Methylation:\n
 A07 :  __________O ;  1
 A08 :  __________O ;  1
 B07 :  _________OO ;  2
