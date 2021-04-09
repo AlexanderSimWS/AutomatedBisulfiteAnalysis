@@ -4,6 +4,8 @@ import pandas as pd
 import plotly.express as px
 
 #****************************************READ ME***********************************
+# Author: Alexander Sim Wei Shi
+# Year: 2021
 # This program helps you analyse bisulfite methylation in a given PCR product (between your primers)
 # Inputs: Control samples (.fasta files) in a single folder, Perturbed samples (.fasta files) in another folder
 # Outputs: Methylation positions and mean % methylation
