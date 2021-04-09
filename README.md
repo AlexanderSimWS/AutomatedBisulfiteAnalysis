@@ -36,7 +36,7 @@ Relevant functionalities of MethPrimer are designing primers for bisulfite-seque
 
 ## Quick Start
 ### Dependencies
-Ensure you have the following libraries installed:
+Ensure you have the following libraries installed:<br/>
 `pip install biopython`<br/>
 https://biopython.org/wiki/Download<br/>
 `pip install pandas`<br/>
