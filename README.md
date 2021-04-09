@@ -65,6 +65,11 @@ Assuming you've already conducted bisulfite PCR and have the sequences of your c
 
 ## Example Output
 ### Based in example input files provided
+Columns are
+1. Sample name (from file name)
+2. Methylation status of each CpG site, methylated sites are indicated by an "O", unmethylated sites are indicated by a "_"
+3. Number of sites methylated in the sequence
+
 Control Group Methylation:<br/>
 A07 :  __________O ;  1<br/>
 A08 :  __________O ;  1<br/>
