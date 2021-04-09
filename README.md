@@ -37,12 +37,12 @@ Relevant functionalities of MethPrimer are designing primers for bisulfite-seque
 ## Quick Start
 ### Dependencies
 Ensure you have the following libraries installed:
-`pip install biopython`
-https://biopython.org/wiki/Download
-`pip install pandas`
-https://pypi.org/project/pandas/
-`pip install plotly-express`
-https://pypi.org/project/plotly-express/
+`pip install biopython`<br/>
+https://biopython.org/wiki/Download<br/>
+`pip install pandas`<br/>
+https://pypi.org/project/pandas/<br/>
+`pip install plotly-express`<br/>
+https://pypi.org/project/plotly-express/<br/>
 
 
 ### Preparing the files and understanding your data
