@@ -47,11 +47,13 @@ https://pypi.org/project/plotly-express/<br/>
 
 ### Preparing the files and understanding your data
 Assuming you've already conducted bisulfite PCR and have the sequences of your control and perturbation samples perform the following steps:
-1. Identify the sequence you're analysing with MethPrimer and index (0 indexed) all the CpG islands between your forward and reverse primers (Indicated by GC in the original stand on top)
-2. Identify false CpG sites (GC sequences that MethPrimer does not recognise as a CpG site, predicted CpG sites are indicated by a "++" between the top and bottom strand) and note their index.
+1. Identify the sequence you're analysing with MethPrimer and index (0 indexed) all the CG segments between your forward and reverse primers (Indicated by GC in the original stand on top)
+2. Identify false CpG sites (GC sequences that MethPrimer does not recognise as a CpG site, predicted CpG sites are indicated by a "++" between the top and bottom strand), note their index and modify the `bisulfite_analysis.py` as stated in the "user config" section
 3. MethyPrimer displays 2 strands (the strand on top is the original sequence and the strand at the bottom is the bisulfite treated sequence). Visually identify a sequence that is unaffected by bisulfite sequencing after your forward primer and just before the first CpG island. Find another short sequence after your last CpG island and before your reverse primer. Enter these in the .py file as the variables "before_first_cpg" and "after_last_cpg" respectively. This allows the program to zoom in on the area of DNA with CpG sites.
-5. Place all your .fasta files of your control sequences into the `control_samples` folder
-6. Place all your .fasta files of your perturbed sequences into the `perturbed_samples` folder
+4. Change the total number of CpG sites (according to MethPrimer) in `bisulfite_analysis.py`
+5. Change the number of control and perturbed samples you have in `bisulfite_analysis.py`
+6. Place all your .fasta files of your control sequences into the `control_samples` folder
+7. Place all your .fasta files of your perturbed sequences into the `perturbed_samples` folder
 
 ### Running the program from terminal
 1. Prepare your sequences and modify variables in the `bisulfite_analysis.py` file as shown above
@@ -62,6 +64,7 @@ Assuming you've already conducted bisulfite PCR and have the sequences of your c
 4. For a graph of the statistics, uncomment the last block of code in the `PRINT_OUTPUT()` function in the `bisulfite_analysis.py` file
 
 ## Example Output
+### Based in example input files provided
 Control Group Methylation:<br/>
 A07 :  __________O ;  1<br/>
 A08 :  __________O ;  1<br/>
