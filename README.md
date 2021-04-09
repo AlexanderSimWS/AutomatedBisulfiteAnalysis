@@ -6,6 +6,7 @@ A simple automated bisulfite analysis Python script to determine the methylation
 In brief, it allows the automated analysis of the extent of methylation of cells after being exposed to a perturbation (e.g. cigarette smoke).
 
 Can be run from terminal in Mac OS.
+An example of visualisation of the data with powerpoint is provided as `example_visualisation_with_powerpoint.png`
 
 ## Background
 ### Epigenetics
